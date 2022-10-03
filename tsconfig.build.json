@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "references": [
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-giscus-comment/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-twikoo-comment/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-waline-comment/tsconfig.build.json"
+    }
+  ],
+  "files": []
+}

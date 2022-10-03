@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@theme/*": [
+        "./packages/@starzkg/vuepress-theme-star/src/client/components/*"
+      ],
+      "@internal/siteData": [
+        "./packages/@starzkg/vuepress-theme-star/src/client/siteData"
+      ]
+    },
+    "types": ["webpack-env", "vite/client"]
+  },
+  "files": [],
+  "include": [
+    "**/.vuepress/**/*",
+    "packages/**/*",
+    "**/__tests__/**/*",
+    "vitest.config.ts"
+  ],
+  "exclude": ["node_modules", ".temp", "lib", "dist"]
+}

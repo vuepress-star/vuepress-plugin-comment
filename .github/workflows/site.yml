@@ -1,0 +1,64 @@
+name: site
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/__tests__/**'
+  workflow_dispatch:
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+
+    env:
+      DOCS_GA_ID: G-CTB8FQ7VMW
+      DOCS_BA_ID: 2bec8aabb0629582fd66244ae851f3a1
+      DOCS_CNZZ_ID: 1280714941
+      DOCS_CNZZ_WEB_ID: 1280714941
+      NODE_VERSION: '16'
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Build example site
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm example:build
+
+      - name: Build documentation site
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm docs:build
+
+      - name: Combine output
+        run: |
+          pnpm cpx "example/.vuepress/dist/**" dist
+          pnpm cpx "docs/.vuepress/dist/**" dist/docs
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.0.0
+        with:
+          repo: vuepress-star/vuepress-star
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
