@@ -11,7 +11,7 @@ importers:
       '@commitlint/config-conventional': 17.1.0
       '@rollup/plugin-commonjs': 22.0.2
       '@rollup/plugin-json': 5.0.1
-      '@rollup/plugin-node-resolve': 14.1.0
+      '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-typescript': 9.0.2
       '@types/node': 18.7.23
       '@types/webpack-env': 1.18.0
@@ -46,7 +46,7 @@ importers:
       '@commitlint/config-conventional': 17.1.0
       '@rollup/plugin-commonjs': 22.0.2_rollup@3.2.3
       '@rollup/plugin-json': 5.0.1_rollup@3.2.3
-      '@rollup/plugin-node-resolve': 14.1.0_rollup@3.2.3
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.2.3
       '@rollup/plugin-typescript': 9.0.2_bvn3ed5hy3sfde644tygjdj4ia
       '@types/node': 18.7.23
       '@types/webpack-env': 1.18.0
@@ -2003,14 +2003,17 @@ packages:
       rollup: 3.2.3
     dev: true
 
-  /@rollup/plugin-node-resolve/14.1.0_rollup@3.2.3:
-    resolution: {integrity: sha512-5G2niJroNCz/1zqwXtk0t9+twOSDlG00k1Wfd7bkbbXmwg8H8dvgHdIWAun53Ps/rckfvOC7scDBjuGFg5OaWw==}
-    engines: {node: '>= 10.0.0'}
+  /@rollup/plugin-node-resolve/15.0.1_rollup@3.2.3:
+    resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^2.78.0
+      rollup: ^2.78.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@3.2.3
-      '@types/resolve': 1.17.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.2.3
+      '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
@@ -2146,13 +2149,13 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.4.7
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: false
 
   /@types/eslint/8.4.7:
     resolution: {integrity: sha512-ehM7cCt2RSFs42mb+lcmhFT9ouIlV92PuaeRGn8N8c98oMjG4Z5pJHA9b1QiCcuqnbPSHcyfiD3mlhqMaHsQIw==}
     dependencies:
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
     dev: false
 
@@ -2166,7 +2169,6 @@ packages:
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
-    dev: true
 
   /@types/express-serve-static-core/4.17.31:
     resolution: {integrity: sha512-DxMhY+NAsTwMMFHBTtJFNp5qiHKJ7TeqOo23zVEM9alT1Ml27Q3xcTH0xwxn7Q0BbMcVEJOs/7aQtUWupUQN3Q==}
@@ -2276,10 +2278,8 @@ packages:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
     dev: false
 
-  /@types/resolve/1.17.1:
-    resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
-    dependencies:
-      '@types/node': 18.7.23
+  /@types/resolve/1.20.2:
+    resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
   /@types/retry/0.12.0:
