@@ -80,7 +80,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -95,7 +95,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -112,7 +112,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -127,7 +127,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -144,7 +144,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -159,7 +159,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -172,14 +172,14 @@ importers:
 
   packages/@starzkg/vuepress-plugin-giscus-comment:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       giscus: ^1.2.0
       vue: ^3.2.41
       vue-router: ^4.1.5
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       giscus: 1.2.0
@@ -188,13 +188,13 @@ importers:
 
   packages/@starzkg/vuepress-plugin-twikoo-comment:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       twikoo: ^1.6.7
       vue: ^3.2.41
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       twikoo: 1.6.7
@@ -202,14 +202,14 @@ importers:
 
   packages/@starzkg/vuepress-plugin-waline-comment:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       '@waline/client': ^2.10.0
       vue: ^3.2.41
       vue-router: ^4.1.5
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       '@waline/client': 2.13.0
@@ -2660,7 +2660,16 @@ packages:
       '@vue/devtools-api': 6.4.5
       '@vuepress/shared': 2.0.0-beta.52
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
+    dev: false
+
+  /@vuepress/client/2.0.0-beta.53:
+    resolution: {integrity: sha512-TDKxlrUvwfWu3QAY4SHeu9mVqBkEoKvuoy0WsKy7x9omEy8+HJG1O9y664bP9SotD52skcKL1iW38nQJR2+AkQ==}
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      '@vuepress/shared': 2.0.0-beta.53
+      vue: 3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     dev: false
 
   /@vuepress/core/2.0.0-beta.52:
@@ -2706,7 +2715,7 @@ packages:
       '@vuepress/utils': 2.0.0-beta.52
       ts-debounce: 4.0.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2800,7 +2809,7 @@ packages:
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2858,6 +2867,13 @@ packages:
 
   /@vuepress/shared/2.0.0-beta.52:
     resolution: {integrity: sha512-cXWdYFAVud5Y6imNPS38GupVWBfEiheDfnbiv7DZZjJYZHC+f/LhsKyVJrMev7HqLvTQGpNY+xLE//K5tr77yA==}
+    dependencies:
+      '@mdit-vue/types': 0.11.0
+      '@vue/shared': 3.2.41
+    dev: false
+
+  /@vuepress/shared/2.0.0-beta.53:
+    resolution: {integrity: sha512-B0qWorGxC3ruSHdZcJW24XtEDEU3L3uPr0xzTeKVfHjOM4b9hN83YzBtW4n/WPnmk1RXVE9266Ulh9ZL5okGOw==}
     dependencies:
       '@mdit-vue/types': 0.11.0
       '@vue/shared': 3.2.41
@@ -10424,6 +10440,15 @@ packages:
 
   /vue-router/4.1.5_vue@3.2.41:
     resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      vue: 3.2.41
+    dev: false
+
+  /vue-router/4.1.6_vue@3.2.41:
+    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
