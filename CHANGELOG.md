@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/vuepress-star/vuepress-plugin-comment/compare/v1.0.2...v1.0.3) (2022-10-28)
+
+
+### Bug Fixes
+
+* update vuepress ([a2489e6](https://github.com/vuepress-star/vuepress-plugin-comment/commit/a2489e64ba5c3b9dd3838d7c99a7f8efcd78e189))
+
+
+
 ## 1.0.2 (2022-10-24)
 
 
