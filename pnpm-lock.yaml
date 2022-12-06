@@ -16,7 +16,7 @@ importers:
       conventional-changelog-cli: 2.2.2
       cpx2: 4.2.0
       eslint: 8.26.0
-      eslint-config-vuepress: 4.0.3
+      eslint-config-vuepress: 4.0.4
       eslint-config-vuepress-typescript: 4.0.3
       husky: 8.0.1
       lint-staged: 13.0.3
@@ -46,7 +46,7 @@ importers:
       conventional-changelog-cli: 2.2.2
       cpx2: 4.2.0
       eslint: 8.26.0
-      eslint-config-vuepress: 4.0.3_ut3sitozhikxkuu2iyk2ttluqm
+      eslint-config-vuepress: 4.0.4_ut3sitozhikxkuu2iyk2ttluqm
       eslint-config-vuepress-typescript: 4.0.3_dndy4fjzlq2l53jggqed26rvue
       husky: 8.0.1
       lint-staged: 13.0.3
@@ -4927,27 +4927,6 @@ packages:
       eslint: 8.26.0
     dev: true
 
-  /eslint-config-standard/17.0.0_43wwz2xsig5yhgcv2rleettsby:
-    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
-    peerDependencies:
-      eslint: ^8.0.1
-      eslint-plugin-import: ^2.25.2
-      eslint-plugin-n: ^15.0.0
-      eslint-plugin-promise: ^6.0.0
-    peerDependenciesMeta:
-      eslint-plugin-import:
-        optional: true
-      eslint-plugin-n:
-        optional: true
-      eslint-plugin-promise:
-        optional: true
-    dependencies:
-      eslint: 8.26.0
-      eslint-plugin-import: 2.26.0_eslint@8.26.0
-      eslint-plugin-n: 15.3.0_eslint@8.26.0
-      eslint-plugin-promise: 6.1.1_eslint@8.26.0
-    dev: true
-
   /eslint-config-standard/17.0.0_eslint@8.26.0:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
@@ -4964,6 +4943,27 @@ packages:
         optional: true
     dependencies:
       eslint: 8.26.0
+    dev: true
+
+  /eslint-config-standard/17.0.0_thb5p775bchu3doe7rlgif2imy:
+    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
+    peerDependencies:
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: ^15.0.0
+      eslint-plugin-promise: ^6.0.0
+    peerDependenciesMeta:
+      eslint-plugin-import:
+        optional: true
+      eslint-plugin-n:
+        optional: true
+      eslint-plugin-promise:
+        optional: true
+    dependencies:
+      eslint: 8.26.0
+      eslint-plugin-import: 2.26.0_eslint@8.26.0
+      eslint-plugin-n: 15.6.0_eslint@8.26.0
+      eslint-plugin-promise: 6.1.1_eslint@8.26.0
     dev: true
 
   /eslint-config-vuepress-typescript/4.0.3_dndy4fjzlq2l53jggqed26rvue:
@@ -4999,9 +4999,9 @@ packages:
         optional: true
     dependencies:
       eslint-config-prettier: 8.5.0_eslint@8.26.0
-      eslint-config-standard: 17.0.0_43wwz2xsig5yhgcv2rleettsby
+      eslint-config-standard: 17.0.0_thb5p775bchu3doe7rlgif2imy
       eslint-plugin-import: 2.26.0_yxvyo6v5zwzggfecalzmx54lre
-      eslint-plugin-n: 15.3.0_eslint@8.26.0
+      eslint-plugin-n: 15.6.0_eslint@8.26.0
       eslint-plugin-prettier: 4.2.1_aniwkeyvlpmwkidetuytnokvcm
       eslint-plugin-promise: 6.1.1_eslint@8.26.0
       prettier: 2.7.1
@@ -5014,10 +5014,10 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-vuepress/4.0.3_ut3sitozhikxkuu2iyk2ttluqm:
-    resolution: {integrity: sha512-pks3B+T4DiETp9Uhshv7s+9VGSpbi1BFWQQ7TWs7zcSmcxYeNz+jX4dVFmJPzZYP7qs5HSgqGMf+HChoZm33Nw==}
+  /eslint-config-vuepress/4.0.4_ut3sitozhikxkuu2iyk2ttluqm:
+    resolution: {integrity: sha512-MUd3IYOTVQfzuL/lAvSJPGMrJEus2/PVbQHs01N5AQw5MXc7kdhbaTJU3melExmgRe08meH88On9lNBmzbw/SQ==}
     peerDependencies:
-      prettier: ^2.7.1
+      prettier: ^2.8.0
       prettier-config-vuepress: '*'
     peerDependenciesMeta:
       prettier:
@@ -5026,9 +5026,9 @@ packages:
         optional: true
     dependencies:
       eslint-config-prettier: 8.5.0_eslint@8.26.0
-      eslint-config-standard: 17.0.0_43wwz2xsig5yhgcv2rleettsby
+      eslint-config-standard: 17.0.0_thb5p775bchu3doe7rlgif2imy
       eslint-plugin-import: 2.26.0_eslint@8.26.0
-      eslint-plugin-n: 15.3.0_eslint@8.26.0
+      eslint-plugin-n: 15.6.0_eslint@8.26.0
       eslint-plugin-prettier: 4.2.1_aniwkeyvlpmwkidetuytnokvcm
       eslint-plugin-promise: 6.1.1_eslint@8.26.0
       prettier: 2.7.1
@@ -5179,8 +5179,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-n/15.3.0_eslint@8.26.0:
-    resolution: {integrity: sha512-IyzPnEWHypCWasDpxeJnim60jhlumbmq0pubL6IOcnk8u2y53s5QfT8JnXy7skjHJ44yWHRb11PLtDHuu1kg/Q==}
+  /eslint-plugin-n/15.6.0_eslint@8.26.0:
+    resolution: {integrity: sha512-Hd/F7wz4Mj44Jp0H6Jtty13NcE69GNTY0rVlgTIj1XBnGGVI6UTdDrpE6vqu3AHo07bygq/N+7OH/lgz1emUJw==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       eslint: '>=7.0.0'
