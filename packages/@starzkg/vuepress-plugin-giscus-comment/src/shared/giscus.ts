@@ -1,8 +1,14 @@
-import type {
-  GiscusInputPosition,
-  GiscusMapping,
-  GiscusRepo,
-} from '../../shared/index.js'
+export type GiscusRepo = `${string}/${string}`
+
+export type GiscusMapping =
+  | 'url'
+  | 'title'
+  | 'og:title'
+  | 'specific'
+  | 'number'
+  | 'pathname'
+
+export type GiscusInputPosition = 'top' | 'bottom'
 
 type BooleanString = '0' | '1'
 

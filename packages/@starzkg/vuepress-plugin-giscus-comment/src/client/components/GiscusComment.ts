@@ -4,9 +4,10 @@ import type { VNode } from 'vue'
 import { useRoute } from 'vue-router'
 import type {
   GiscusCommentFrontmatter,
+  GiscusLang,
   GiscusPluginOptions,
+  GiscusProps,
 } from '../../shared/index.js'
-import type { GiscusLang, GiscusProps } from '../utils/index.js'
 
 declare const GISCUS_COMMENT_OPTIONS: GiscusPluginOptions
 
@@ -74,12 +75,15 @@ export default defineComponent({
       category: giscusOption.category,
       categoryId: giscusOption.categoryId,
       lang: giscusLang.value,
-      theme: props.darkmode ? 'dark' : 'light',
+      theme: props.darkmode
+        ? giscusOption.darkTheme ?? 'dark'
+        : giscusOption.lightTheme ?? 'light',
       mapping: giscusOption.mapping || 'pathname',
       term: withBase(route.path),
       inputPosition: giscusOption.inputPosition || 'top',
       reactionsEnabled: giscusOption.reactionsEnabled !== false ? '1' : '0',
       strict: giscusOption.strict !== false ? '1' : '0',
+      loading: giscusOption.lazyLoading !== false ? 'lazy' : 'eager',
       emitMetadata: '0',
     }))
 
