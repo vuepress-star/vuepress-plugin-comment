@@ -44,7 +44,7 @@
   "dependencies": {
     "@vuepress/client": "2.0.0-beta.53",
     "@vuepress/core": "2.0.0-beta.53",
-    "@vuepress/utils": "2.0.0-beta.53",
+    "@vuepress/utils": "2.0.0-beta.50-pre.1",
     "@waline/client": "^2.10.0",
     "vue": "^3.2.41",
     "vue-router": "^4.1.5"
