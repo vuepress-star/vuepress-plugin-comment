@@ -76,7 +76,7 @@ importers:
       '@vuepress/plugin-register-components': 2.0.0-beta.53
       '@vuepress/plugin-shiki': 2.0.0-beta.53
       '@vuepress/theme-default': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
@@ -91,7 +91,7 @@ importers:
       '@vuepress/plugin-register-components': 2.0.0-beta.53
       '@vuepress/plugin-shiki': 2.0.0-beta.53
       '@vuepress/theme-default': 2.0.0-beta.53_sass-loader@13.1.0
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
@@ -108,7 +108,7 @@ importers:
       '@vuepress/plugin-register-components': 2.0.0-beta.53
       '@vuepress/plugin-shiki': 2.0.0-beta.53
       '@vuepress/theme-default': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
@@ -123,7 +123,7 @@ importers:
       '@vuepress/plugin-register-components': 2.0.0-beta.53
       '@vuepress/plugin-shiki': 2.0.0-beta.53
       '@vuepress/theme-default': 2.0.0-beta.53_sass-loader@13.1.0
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
@@ -140,7 +140,7 @@ importers:
       '@vuepress/plugin-register-components': 2.0.0-beta.53
       '@vuepress/plugin-shiki': 2.0.0-beta.53
       '@vuepress/theme-default': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
@@ -155,7 +155,7 @@ importers:
       '@vuepress/plugin-register-components': 2.0.0-beta.53
       '@vuepress/plugin-shiki': 2.0.0-beta.53
       '@vuepress/theme-default': 2.0.0-beta.53_sass-loader@13.1.0
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
@@ -164,14 +164,14 @@ importers:
     specifiers:
       '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       giscus: ^1.2.0
       vue: ^3.2.41
       vue-router: ^4.1.5
     dependencies:
       '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       giscus: 1.2.0
       vue: 3.2.41
       vue-router: 4.1.5_vue@3.2.41
@@ -180,13 +180,13 @@ importers:
     specifiers:
       '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       twikoo: ^1.6.7
       vue: ^3.2.41
     dependencies:
       '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       twikoo: 1.6.7
       vue: 3.2.41
 
@@ -194,14 +194,14 @@ importers:
     specifiers:
       '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       '@waline/client': ^2.10.0
       vue: ^3.2.41
       vue-router: ^4.1.5
     dependencies:
       '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.53
-      '@vuepress/utils': 2.0.0-beta.53
+      '@vuepress/utils': 2.0.0-beta.50-pre.1
       '@waline/client': 2.13.0
       vue: 3.2.41
       vue-router: 4.1.5_vue@3.2.41
@@ -2753,6 +2753,12 @@ packages:
       - supports-color
     dev: false
 
+  /@vuepress/shared/2.0.0-beta.50-pre.1:
+    resolution: {integrity: sha512-Gk6ikIV2V8LMokc+H/juH+kBOigo38Woup42Q2pmmWqmlwdLqbUcCYZSt/z+opeOUAqC9s3CZnKR8xCw+qo8BQ==}
+    dependencies:
+      '@vue/shared': 3.2.41
+    dev: false
+
   /@vuepress/shared/2.0.0-beta.53:
     resolution: {integrity: sha512-B0qWorGxC3ruSHdZcJW24XtEDEU3L3uPr0xzTeKVfHjOM4b9hN83YzBtW4n/WPnmk1RXVE9266Ulh9ZL5okGOw==}
     dependencies:
@@ -2789,6 +2795,24 @@ packages:
       vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - supports-color
+    dev: false
+
+  /@vuepress/utils/2.0.0-beta.50-pre.1:
+    resolution: {integrity: sha512-ODJP1kboA+c12Nf6gqkk4vU9JLnrjOaYI9+NsLtv/MXEXulWVr65ZWZK3SmF+RiNFJZDfTs9kXLbwujetkNBhQ==}
+    dependencies:
+      '@types/debug': 4.1.7
+      '@types/fs-extra': 9.0.13
+      '@types/hash-sum': 1.0.0
+      '@vuepress/shared': 2.0.0-beta.50-pre.1
+      chalk: 5.1.2
+      debug: 4.3.4
+      fs-extra: 10.1.0
+      globby: 13.1.2
+      hash-sum: 2.0.0
+      ora: 6.1.2
+      upath: 2.0.1
+    transitivePeerDependencies:
       - supports-color
     dev: false
 
